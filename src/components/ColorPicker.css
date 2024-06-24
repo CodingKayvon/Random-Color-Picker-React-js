@@ -1,0 +1,42 @@
+header img {
+  height: 150px;
+  width: auto;
+  margin-bottom: 30px;
+  animation: spinRight 3s linear infinite;
+}
+.ColorPicker-w {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ColorPicker-h {
+  text-align: center;
+}
+
+.ColorPicker-h h1 {
+  color: var(--colorTheme);
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+.ColorPicker-h h2 {
+  color: var(--colorTheme);
+  font-size: 1.3rem;
+  padding-bottom: 50px;
+}
+
+.ColorBtn {
+  background-color: var(--colorTheme);
+  color: #eee;
+  border-radius: 5px;
+  height: 75px;
+  width: 100px;
+  font-size: 1.2rem;
+}
+
+
+/* Animations */
+@keyframes spinRight{
+  100%{-webkit-transform: rotate(360deg);}
+}
